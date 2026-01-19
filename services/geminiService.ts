@@ -6,7 +6,7 @@ import { BOT_KNOWLEDGE_BASE } from './botKnowledge';
 
 const getAI = () => {
   // Use strictly process.env.API_KEY as per guidelines
- const apiKey = import.meta.env.VITE_API_KEY;
+ const apiKey = "AIzaSyA6c_jjQHWH9gEwR8NHJ0AtcZgQODcKLYE";
 
   if (!apiKey || apiKey === 'undefined') {
     console.error("CRITICAL: API_KEY is missing. Check Vercel Environment Variables.");
